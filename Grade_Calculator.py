@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
 Created on Sat Jul 20 09:11:32 2024
-
 @author: Kasish
+Below is the Python code for the Grade Calculator
 """
 
 import tkinter
@@ -42,13 +42,6 @@ def Calculation():
         Label(root, text="PASS", font="arial 15 bold", fg="blue").place(x=250, y=370)
     else:
         Label(root, text="INVALID", font="arial 15 bold", fg="red").place(x=250, y=370)
-    
-
-
-
-
-
-
 
 sub1= Label(root, text="Subject 1 : ", font="Arial 10")
 sub2= Label(root, text="Subject 2 : ", font="Arial 10")
@@ -89,43 +82,4 @@ subject5_entry.place(x=250, y=220)
 Button(text="Calculate", font="Arial 15", bg="white", bd=10, command=Calculation).place(x=50, y=420)
 Button(text="Exit", font="Arial 15", bg="white", bd=10, width=8, command=root.destroy).place(x=330, y=420)
 
-
-
-
-
-
-
-
 root.mainloop()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
