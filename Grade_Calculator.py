@@ -20,7 +20,7 @@ def Calculation():
     subject_5=int(subject5_entry.get())
     if subject_1<33 or  subject_2<33 or subject_3<33 or subject_4<33 or subject_5<33:
         Label(root, text="FAIL", font="arial 15 bold", fg="red").place(x=250, y=370)
-    elif subject_1<101 or  subject_2<101 or subject_3<101 or subject_4<101 or subject_5<101:
+    elif subject_1<101 and subject_2<101 and subject_3<101 and subject_4<101 and subject_5<101:
         total=(subject_1+ subject_2+ subject_3+ subject_4+ subject_5)
         percent=total/5
         if percent<=100 and percent>=90:
